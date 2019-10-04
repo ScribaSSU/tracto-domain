@@ -2,15 +2,10 @@ package com.scribassu.tracto.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import com.scribassu.tracto.domain.TypeOfLesson;
 
 @Data
 @NoArgsConstructor
 public class Type {
-    public enum TypeOfLesson {
-        LECTION,
-        PRACTICE,
-        LABORATORY
-    }
-
     private TypeOfLesson typeOfLesson;
 }

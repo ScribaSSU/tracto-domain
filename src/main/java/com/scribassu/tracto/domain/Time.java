@@ -6,7 +6,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class Time {
-    private int hour;
-    private int minute;
-    private int second;
+    private int ID_Time;
+    private int lessonNumber;
+    private String timeStart;
+    private String timeFinish;
 }
