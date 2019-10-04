@@ -6,4 +6,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class Type {
+    public enum TypeOfLesson {
+        LECTION,
+        PRACTICE,
+        LABORATORY
+    }
+
+    private TypeOfLesson typeOfLesson;
 }
