@@ -6,20 +6,14 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class ExamPeriodEvent {
-    private enum TypeOfEvent {
-        MIDTERM,
-        EXAM,
-        CONSULTATION
-    }
-
-    private TypeOfEvent typeOfEvent;
+    private EventType eventType;
     int day;
     int month;
     int hour;
     int minute;
     String nameOfSubject;
-    Long teacherID;
-    Long departmentID;
+    Teacher teacher;
+    Department department;
     String place;
-    int groupNumber;
+    String groupNumber;
 }
