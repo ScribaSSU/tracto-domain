@@ -7,13 +7,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ExamPeriodEvent {
     private EventType eventType;
-    int day;
-    int month;
-    int hour;
-    int minute;
-    String nameOfSubject;
-    Teacher teacher;
-    Department department;
-    String place;
-    String groupNumber;
+    private int day;
+    private int month;
+    private int hour;
+    private int minute;
+    private String nameOfSubject;
+    private Teacher teacher;
+    private Department department;
+    private String place;
+    private String groupNumber;
 }

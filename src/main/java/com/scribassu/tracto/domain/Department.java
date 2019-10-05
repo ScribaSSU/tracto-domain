@@ -6,8 +6,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class Department {
-    Long id;
-    String fullName;
-    String shortName;
-    String URL;
+    private Long id;
+    private String fullName;
+    private String shortName;
+    private String URL;
 }
