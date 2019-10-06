@@ -11,7 +11,7 @@ public class ExamPeriodEvent {
     private int month;
     private int hour;
     private int minute;
-    private String nameOfSubject;
+    private String subjectName;
     private Teacher teacher;
     private Department department;
     private String place;
