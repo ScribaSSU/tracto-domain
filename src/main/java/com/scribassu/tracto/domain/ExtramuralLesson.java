@@ -10,7 +10,7 @@ public class ExtramuralLesson {
     private String groupNumber;
     private int day;
     private int month;
-    private Time timeOfLesson;
+    private Time lessonTime;
     private String info;
     private LessonType lessonType;
 }

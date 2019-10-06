@@ -9,8 +9,8 @@ public class FullTimeLesson {
     private Department department;
     private String groupNumber;
     private int dayOfWeek;
-    private Time timeOfLesson;
+    private Time lessonTime;
     private String info;
-    private WeekType typeOfWeek;
+    private WeekType weekType;
     private LessonType lessonType;
 }
