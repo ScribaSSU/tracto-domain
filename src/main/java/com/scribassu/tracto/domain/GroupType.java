@@ -1,13 +1,17 @@
 package com.scribassu.tracto.domain;
 
-public enum Groups {
+public enum GroupType {
     DO("Дневная"),
     ZO("Заочная"),
     VO("Вечерняя");
 
     private String type;
 
-    public String getGroups() { return type; }
+    public String getGroupType() {
+        return type;
+    }
 
-    Groups(String type) { this.type = type; }
+    GroupType(String type) {
+        this.type = type;
+    }
 }
