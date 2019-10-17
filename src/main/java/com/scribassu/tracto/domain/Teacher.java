@@ -10,4 +10,5 @@ public class Teacher {
     private String surname;
     private String name;
     private String patronymic;
+    private Long schedule;
 }

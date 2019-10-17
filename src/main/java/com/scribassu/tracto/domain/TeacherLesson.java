@@ -11,5 +11,5 @@ public class TeacherLesson {
     private Time lessonTime;
     private String info;
     private WeekType weekType;
-    private Type type;
+    private LessonType type;
 }
