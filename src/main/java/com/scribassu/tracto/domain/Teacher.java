@@ -11,8 +11,11 @@ import javax.persistence.Id;
 public class Teacher {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue  
     private Long id;
-
-
+  
+    private String surname;
+    private String name;
+    private String patronymic;
+    private Long scheduleId;
 }
