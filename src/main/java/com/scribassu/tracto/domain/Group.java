@@ -8,13 +8,13 @@ import javax.persistence.Id;
 
 @Data
 @NoArgsConstructor
-public class Time {
+public class Group {
 
     @Id
     @GeneratedValue
     private Long id;
 
-    private int lessonNumber;
-    private String timeStart;
-    private String timeFinish;
+    private String groupNumber;
+    private Department department;
+    private GroupType groupType;
 }
