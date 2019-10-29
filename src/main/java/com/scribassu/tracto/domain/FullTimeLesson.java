@@ -17,7 +17,7 @@ public class FullTimeLesson {
 
     private Department department;
     private String groupNumber;
-    private int dayOfWeek;
+    private Day weekDay;
     private Time lessonTime;
     private String info;
 

@@ -16,7 +16,7 @@ public class TeacherLesson {
     private Long id;
     
     private Teacher teacher;
-    private int dayOfWeek;
+    private Day weekDay;
     private Time lessonTime;
     private String info;
 
