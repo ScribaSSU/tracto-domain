@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Table(name = "group")
 @Data
 @NoArgsConstructor
-public class Group {
+public class StudentGroup {
 
     @Id
     @GeneratedValue

@@ -23,7 +23,7 @@ public class ExtramuralLesson {
     private int month;
 
     @ManyToOne
-    private Time lessonTime;
+    private LessonTime lessonTime;
 
     private String info;
 

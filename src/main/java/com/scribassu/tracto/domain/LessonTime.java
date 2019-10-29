@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Table(name = "time")
 @Data
 @NoArgsConstructor
-public class Time {
+public class LessonTime {
 
     @Id
     @GeneratedValue

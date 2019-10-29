@@ -23,7 +23,7 @@ public class EveningLesson {
     private int month;
 
     @ManyToOne
-    private Time lessonTime;
+    private LessonTime lessonTime;
 
     @Enumerated(EnumType.STRING)
     private WeekType weekType;

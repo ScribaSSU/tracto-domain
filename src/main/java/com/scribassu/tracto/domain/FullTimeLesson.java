@@ -24,7 +24,7 @@ public class FullTimeLesson {
     private Day weekDay;
 
     @ManyToOne
-    private Time lessonTime;
+    private LessonTime lessonTime;
 
     private String info;
 
