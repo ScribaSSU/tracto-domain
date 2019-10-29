@@ -3,9 +3,10 @@ package com.scribassu.tracto.domain;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "exam_period_event")
 @Data
 @NoArgsConstructor
 public class ExamPeriodEvent {
@@ -14,7 +15,9 @@ public class ExamPeriodEvent {
     @GeneratedValue
     private Long id;
 
-    private EventType eventType;
+    @Enumerated(EnumType.STRING)
+    private ExamPeriodEventType examPeriodEventType;
+
     private int day;
     private int month;
     private int hour;

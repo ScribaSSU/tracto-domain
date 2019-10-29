@@ -1,6 +1,6 @@
 package com.scribassu.tracto.domain;
 
-public enum EventType {
+public enum ExamPeriodEventType {
     MIDTERM("Зачет"),
     EXAM("Экзамен"),
     CONSULTATION("Консультация");
@@ -9,5 +9,5 @@ public enum EventType {
 
     public String getType() { return type; }
 
-    EventType(String type) { this.type = type; }
+    ExamPeriodEventType(String type) { this.type = type; }
 }

@@ -3,9 +3,10 @@ package com.scribassu.tracto.domain;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "group")
 @Data
 @NoArgsConstructor
 public class Group {
@@ -16,5 +17,7 @@ public class Group {
 
     private String groupNumber;
     private Department department;
+
+    @Enumerated(EnumType.STRING)
     private GroupType groupType;
 }

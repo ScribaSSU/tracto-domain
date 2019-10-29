@@ -3,7 +3,7 @@ package com.scribassu.tracto.domain;
 public enum WeekType {
     ODD("чис."),
     EVEN("знам."),
-    BOTH(" ");
+    BOTH("");
 
     private String type;
 

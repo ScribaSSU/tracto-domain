@@ -3,9 +3,10 @@ package com.scribassu.tracto.domain;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "evening_lesson")
 @Data
 @NoArgsConstructor
 public class EveningLesson {
@@ -19,6 +20,10 @@ public class EveningLesson {
     private int day;
     private int month;
     private Time lessonTime;
+
+    @Enumerated(EnumType.STRING)
     private WeekType weekType;
+
+    @Enumerated(EnumType.STRING)
     private LessonType lessonType;
 }
