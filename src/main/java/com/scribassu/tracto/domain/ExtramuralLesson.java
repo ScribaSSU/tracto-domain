@@ -15,11 +15,16 @@ public class ExtramuralLesson {
     @GeneratedValue
     private Long id;
 
+    @ManyToOne
     private Department department;
+
     private String groupNumber;
     private int day;
     private int month;
+
+    @ManyToOne
     private Time lessonTime;
+
     private String info;
 
     @Enumerated(EnumType.STRING)

@@ -15,10 +15,17 @@ public class FullTimeLesson {
     @GeneratedValue
     private Long id;
 
+    @ManyToOne
     private Department department;
+
     private String groupNumber;
+
+    @ManyToOne
     private Day weekDay;
+
+    @ManyToOne
     private Time lessonTime;
+
     private String info;
 
     @Enumerated(EnumType.STRING)

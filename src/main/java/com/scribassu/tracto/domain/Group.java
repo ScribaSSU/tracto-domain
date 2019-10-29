@@ -16,6 +16,8 @@ public class Group {
     private Long id;
 
     private String groupNumber;
+
+    @ManyToOne
     private Department department;
 
     @Enumerated(EnumType.STRING)

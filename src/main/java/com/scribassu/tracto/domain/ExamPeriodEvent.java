@@ -23,7 +23,11 @@ public class ExamPeriodEvent {
     private int hour;
     private int minute;
     private String subjectName;
+
+    @ManyToOne
     private Teacher teacher;
+
+    @ManyToOne
     private Department department;
     private String place;
     private String groupNumber;

@@ -15,10 +15,14 @@ public class EveningLesson {
     @GeneratedValue
     private Long id;
 
+    @ManyToOne
     private Department department;
+
     private String groupNumber;
     private int day;
     private int month;
+
+    @ManyToOne
     private Time lessonTime;
 
     @Enumerated(EnumType.STRING)

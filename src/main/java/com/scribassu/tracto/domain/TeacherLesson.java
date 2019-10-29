@@ -14,10 +14,16 @@ public class TeacherLesson {
     @Id
     @GeneratedValue
     private Long id;
-    
+
+    @ManyToOne
     private Teacher teacher;
+
+    @ManyToOne
     private Day weekDay;
+
+    @ManyToOne
     private Time lessonTime;
+
     private String info;
 
     @Enumerated(EnumType.STRING)
