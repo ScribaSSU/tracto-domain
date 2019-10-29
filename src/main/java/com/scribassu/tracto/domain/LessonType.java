@@ -2,7 +2,7 @@ package com.scribassu.tracto.domain;
 
 public enum LessonType {
     LECTURE("лек."),
-    PRACTICE("практ."),
+    PRACTICE("пр."),
     LABORATORY("лаб.");
 
     private String type;

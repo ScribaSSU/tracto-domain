@@ -3,9 +3,10 @@ package com.scribassu.tracto.domain;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "extramural_lesson")
 @Data
 @NoArgsConstructor
 public class ExtramuralLesson {
@@ -20,5 +21,7 @@ public class ExtramuralLesson {
     private int month;
     private Time lessonTime;
     private String info;
+
+    @Enumerated(EnumType.STRING)
     private LessonType lessonType;
 }
