@@ -1,13 +1,14 @@
 package com.scribassu.tracto.domain;
 
 public enum GroupType {
-    DO("Дневная"),
-    ZO("Заочная"),
-    VO("Вечерняя");
+    SPECIALTY("Специалитет"),
+    BACHELOR("Бакалавриат"),
+    MASTER("Магистратура"),
+    GRADUATE_SCHOOL("Аспирантура");
 
     private String type;
 
-    public String getGroupType() {
+    public String getType() {
         return type;
     }
 

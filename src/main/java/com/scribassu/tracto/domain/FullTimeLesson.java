@@ -15,18 +15,22 @@ public class FullTimeLesson {
     @GeneratedValue
     private Long id;
 
+    private String name;
+    private String place;
+
     @ManyToOne
     private Department department;
 
-    private String groupNumber;
+    @OneToOne
+    private StudentGroup studentGroup;
+
+    private String subGroup;
 
     @ManyToOne
     private Day weekDay;
 
     @ManyToOne
     private LessonTime lessonTime;
-
-    private String info;
 
     @Enumerated(EnumType.STRING)
     private WeekType weekType;

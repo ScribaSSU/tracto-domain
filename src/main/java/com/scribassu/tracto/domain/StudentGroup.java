@@ -21,5 +21,8 @@ public class StudentGroup {
     private Department department;
 
     @Enumerated(EnumType.STRING)
+    private EducationForm educationForm;
+
+    @Enumerated(EnumType.STRING)
     private GroupType groupType;
 }
