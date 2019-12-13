@@ -27,10 +27,13 @@ public class FullTimeLesson {
     private String subGroup;
 
     @ManyToOne
-    private Day weekDay;
+    private Day day;
 
     @ManyToOne
     private LessonTime lessonTime;
+
+    @ManyToOne
+    Teacher teacher;
 
     @Enumerated(EnumType.STRING)
     private WeekType weekType;

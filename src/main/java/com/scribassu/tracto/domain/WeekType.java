@@ -1,9 +1,9 @@
 package com.scribassu.tracto.domain;
 
 public enum WeekType {
-    ODD("чис."),
-    EVEN("знам."),
-    BOTH("");
+    NOM("чис."),
+    DENOM("знам."),
+    FULL("");
 
     private String type;
 
