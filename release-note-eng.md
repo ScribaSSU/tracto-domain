@@ -26,7 +26,7 @@
 
 ## 0.0.7 (29/10/2019)
 
-- Added @manytoone
+- Added @ManyToOne
   
 ---
 
