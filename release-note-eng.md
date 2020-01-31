@@ -4,51 +4,51 @@
 
 ## 0.0.11 (13/12/2019)
 
-- Fixed StudentGroup entity
+- Fix StudentGroup entity
 
 ---
 
 ## 0.0.10 (13/12/2019)
 
-- Fixed FullTimeLesson и WeekType
+- Fix FullTimeLesson и WeekType
 
 ---
 
 ## 0.0.9 (13/12/2019)
 
-- Changed some entities to fit sgu.ru style
+- Change some entities to fit sgu.ru style
 
 ## 0.0.8 (29/10/2019)
 
-- Renamed Time to LessonTime and Group в StudentGroup
+- Rename Time to LessonTime and Group в StudentGroup
 
 ---
 
 ## 0.0.7 (29/10/2019)
 
-- Added @ManyToOne
+- Add @ManyToOne
   
 ---
 
 ## 0.0.6 (29/10/2019)
 
-- Added field Day for FullTimeLesson and TeacherLesson entities
+- Add field Day for FullTimeLesson and TeacherLesson entities
 
 ---
 
 ## 0.0.5 (29/10/2019)
 
-- Added enum WeekDay
+- Add enum WeekDay
 
 ---
 
 ## 0.0.4 (29/10/2019)
 
-- Added entity Group
-- Added fields for Teacher and TeacherLesson entities
-- Added annotations for entities
-- Added @Enumerated for some entities
-- Changed names for some entities
+- Add entity Group
+- Add fields for Teacher and TeacherLesson entities
+- Add annotations for entities
+- Add @Enumerated for some entities
+- Change names for some entities
 
 ---
 
