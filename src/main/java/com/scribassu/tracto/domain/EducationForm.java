@@ -11,6 +11,15 @@ public enum EducationForm {
         return type;
     }
 
+    public static EducationForm fromGroupType(String type) {
+        for(EducationForm ef : EducationForm.values()) {
+            if(ef.type.equalsIgnoreCase(type)) {
+                return ef;
+            }
+        }
+        return DO;
+    }
+
     EducationForm(String type) {
         this.type = type;
     }

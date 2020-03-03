@@ -15,6 +15,15 @@ public enum WeekDay {
         return day;
     }
 
+    public static WeekDay fromDay(String day) {
+        for(WeekDay wd : WeekDay.values()) {
+            if(wd.day.equalsIgnoreCase(day)) {
+                return wd;
+            }
+        }
+        return MONDAY;
+    }
+
     WeekDay(String day) {
         this.day = day;
     }
