@@ -19,7 +19,7 @@ public class ExamPeriodEvent {
     private ExamPeriodEventType examPeriodEventType;
 
     private int day;
-    private int month;
+    private String month;
     private int hour;
     private int minute;
     private String subjectName;
@@ -27,8 +27,7 @@ public class ExamPeriodEvent {
     @ManyToOne
     private Teacher teacher;
 
-    @ManyToOne
-    private Department department;
+    @OneToOne
+    private StudentGroup studentGroup;
     private String place;
-    private String groupNumber;
 }
