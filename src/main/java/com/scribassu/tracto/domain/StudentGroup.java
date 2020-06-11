@@ -17,6 +17,8 @@ public class StudentGroup {
 
     private String groupNumber;
 
+    private String groupNumberRus;
+
     @ManyToOne
     private Department department;
 
