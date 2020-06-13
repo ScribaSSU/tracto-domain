@@ -2,6 +2,7 @@ package com.scribassu.tracto.domain;
 
 public enum ExamPeriodEventType {
     MIDTERM("Зачет"),
+    MIDTERM_WITH_MARK("Дифференцированный зачет"),
     EXAM("Экзамен"),
     CONSULTATION("Консультация");
 
