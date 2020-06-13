@@ -20,6 +20,7 @@ public class ExamPeriodEvent {
 
     private int day;
     private String month;
+    private String year;
     private int hour;
     private int minute;
     private String subjectName;

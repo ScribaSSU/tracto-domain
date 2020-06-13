@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.scribassu</groupId>
 	<artifactId>tracto-domain</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<name>tracto-domain</name>
 	<description>Tracto Domain</description>
 	<packaging>jar</packaging>
