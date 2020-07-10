@@ -19,6 +19,8 @@ public class LessonTime {
     private Long id;
 
     private int lessonNumber;
-    private String timeStart;
-    private String timeFinish;
+    private int hourStart;
+    private int minuteStart;
+    private int hourEnd;
+    private int minuteEnd;
 }
