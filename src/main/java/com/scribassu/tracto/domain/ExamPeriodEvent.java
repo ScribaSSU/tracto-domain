@@ -19,7 +19,7 @@ public class ExamPeriodEvent {
     private ExamPeriodEventType examPeriodEventType;
 
     private int day;
-    private String month;
+    private ExamPeriodMonth month;
     private String year;
     private int hour;
     private int minute;
