@@ -4,7 +4,8 @@ public enum GroupType {
     SPECIALTY("Специалитет"),
     BACHELOR("Бакалавриат"),
     MASTER("Магистратура"),
-    GRADUATE_SCHOOL("Аспирантура");
+    GRADUATE_SCHOOL("Аспирантура"),
+    COLLEGE("Колледж");
 
     private String type;
 
