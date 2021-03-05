@@ -20,14 +20,16 @@ public class ExtramuralEvent {
     private int day;
     private String year;
 
+    private int startHour;
+    private int startMinute;
+    private int endHour;
+    private int endMinute;
+
     @ManyToOne
     private Department department;
 
     @OneToOne
     private StudentGroup studentGroup;
-
-    @ManyToOne
-    private LessonTime lessonTime;
 
     @Enumerated(EnumType.STRING)
     private ExtramuralEventType eventType;
