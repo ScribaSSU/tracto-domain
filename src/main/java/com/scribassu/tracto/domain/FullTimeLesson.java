@@ -40,4 +40,10 @@ public class FullTimeLesson {
 
     @Enumerated(EnumType.STRING)
     private LessonType lessonType;
+
+    private Long updatedTimestamp;
+
+    private Long beginTimestamp;
+
+    private Long endTimestamp;
 }

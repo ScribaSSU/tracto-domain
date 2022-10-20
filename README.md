@@ -41,6 +41,6 @@ allprojects {
 
 ```Groovy
 dependencies {
-        implementation 'com.github.ScribaSSU:tracto-domain:1.0.7'
+        implementation 'com.github.ScribaSSU:tracto-domain:VERSION'
 }
 ```
