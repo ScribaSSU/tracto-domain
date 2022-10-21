@@ -1,5 +1,7 @@
 # Tracto Domain
 
+[![](https://jitpack.io/v/ScribaSSU/tracto-domain.svg)](https://jitpack.io/#ScribaSSU/tracto-domain)
+
 Entities for schedule of Saratov State University.
 Mainly are used in [Tracto](https://github.com/ScribaSSU/tracto) and [Scriba](https://github.com/ScribaSSU/scriba-bot) projects
 but you are free to use it in your projects.
