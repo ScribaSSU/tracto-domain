@@ -1,6 +1,6 @@
 # Tracto Domain
 
-[![Release](https://jitpack.io/v/User/tracto-domain.svg)]
+[![Release](https://jitpack.io/v/ScribaSSU/tracto-domain.svg)]
 (https://jitpack.io/#ScribaSSU/tracto-domain)
 
 Entities for schedule of Saratov State University.
